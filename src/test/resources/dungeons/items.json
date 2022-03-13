@@ -1,0 +1,95 @@
+{
+    "width": 6,
+    "height": 7,
+    "entities": [
+        {
+            "x": 1,
+            "y": 1,
+            "type": "treasure"
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "type": "sun_stone"
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "type": "arrow"
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "type": "wood"
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "type": "wood"
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "type": "wood"
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "type": "arrow"
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "type": "arrow"
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "type": "arrow"
+        },
+        {
+            "x": 4,
+            "y": 5,
+            "key": 1,
+            "type": "key"
+        },
+        {
+            "x": 5,
+            "y": 5,
+            "type": "invisibility_potion"
+        },
+        {
+            "x": 5,
+            "y": 4,
+            "type": "armour"
+        },
+        {
+            "x": 5,
+            "y": 3,
+            "type": "sword"
+        },
+        {
+            "x": 5,
+            "y": 2,
+            "type": "bomb"
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "type": "player"
+        }, 
+        {
+            "x": 0,
+            "y": 0,
+            "type": "time_turner"
+        },
+        {
+          "x": 0,
+          "y": 1,
+          "type": "time_travelling_portal"
+        }
+    ],
+    "goal-condition": {
+        "goal": "treasure"
+    }
+}

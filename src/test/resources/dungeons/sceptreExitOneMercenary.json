@@ -1,0 +1,46 @@
+{
+    "width": 7,
+    "height": 7,
+    "entities": [{
+            "x": 0,
+            "y": 0,
+            "type": "wall"
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "type": "sceptre"
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "type": "player"
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "type": "mercenary"
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "type": "mercenary"
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "type": "exit"
+        }
+    ],
+    "goal-condition": {
+        "goal": "AND",
+        "subgoals": [
+          {
+            "goal": "exit"
+          },
+          {
+            "goal": "sceptre"
+          }
+        ]
+    }
+}

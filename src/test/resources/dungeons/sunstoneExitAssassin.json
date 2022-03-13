@@ -1,0 +1,41 @@
+{
+    "width": 6,
+    "height": 6,
+    "entities": [{
+            "x": 0,
+            "y": 0,
+            "type": "wall"
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "type": "sun_stone"
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "type": "player"
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "type": "assassin"
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "type": "exit"
+        }
+    ],
+    "goal-condition": {
+        "goal": "AND",
+        "subgoals": [
+          {
+            "goal": "exit"
+          },
+          {
+            "goal": "treasure"
+          }
+        ]
+    }
+}

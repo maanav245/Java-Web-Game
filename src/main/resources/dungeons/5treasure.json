@@ -1,0 +1,39 @@
+{
+    "width": 4,
+    "height": 4,
+    "entities": [
+        {
+            "x": 3,
+            "y": 2,
+            "type": "treasure"
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "type": "treasure"
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "type": "treasure"
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "type": "treasure"
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "type": "treasure"
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "type": "player"
+        }
+    ],
+    "goal-condition": {
+        "goal": "treasure"
+    }
+}

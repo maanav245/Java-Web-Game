@@ -1,0 +1,59 @@
+{
+    "entities": [
+        {
+            "x": 0,
+            "y": 0,
+            "type": "player"
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "type": "door",
+            "key": 1
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "type": "door",
+            "key": 2
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "type": "key",
+            "key": 1
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "type": "key",
+            "key": 2
+        },
+        {
+          "x": 2,
+          "y": 0,
+          "type": "wall"
+        },
+        {
+          "x": 2,
+          "y": 2,
+          "type": "wall"
+        },
+        {
+          "x": 2,
+          "y": 4,
+          "type": "wall"
+        }, 
+        {
+            "x": 0,
+            "y": -1,
+            "type": "sun_stone"
+        }
+        
+    ],
+    "goal-condition": {
+        "goal": "exit"
+    },
+    "width": 5,
+    "height": 5
+}
